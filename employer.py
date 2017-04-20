@@ -11,4 +11,4 @@ class Employer(Employee):
         else:
             raise TypeError
     def message(self):
-        print ("Welcome Employer")
+        return "Welcome Employer"

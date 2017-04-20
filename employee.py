@@ -7,5 +7,5 @@ class Employee(Person):
         Person.__init__(self, name, age, gender)
         self.title = title
     def message(self):
-        print ("Welcome Employee")
+        return "Welcome Employee"
 
