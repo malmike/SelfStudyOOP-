@@ -17,6 +17,7 @@ def main():
     print ("Title: "+ employer.title)
     print ("Number of subordinates:"+ str(len(employer.subordinates)))
     print ("Show polymorphism:")
+    print ("Message for employee:"+employee.message())
     print ("Message for employer:"+employer.message())
 
 if __name__ == "__main__":
