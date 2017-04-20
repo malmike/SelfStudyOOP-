@@ -5,5 +5,5 @@ class Employer(Employee):
         self.subordinates = []
 
     def hire():
-        new_sub = new Employee('Bruce Bigirwenkya', 23, 'male' 'cleaner')
+        new_sub = new Employee('Male Michael', 25, 'male' 'cleaner')
         self.subordinates.append(new_sub)
