@@ -6,7 +6,6 @@ class Employee(Person):
         #self.id = math.random()
         Person.__init__(self, name, age, gender)
         self.title = title
-    
-    # def work(self, assignment):
-    #     move()
-    #     communicate()
+    def message(self):
+        print ("Welcome Employee")
+

@@ -10,3 +10,5 @@ class Employer(Employee):
             self.subordinates.append(employee)
         else:
             raise TypeError
+    def message(self):
+        print ("Welcome Employer")
