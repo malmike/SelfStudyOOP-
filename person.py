@@ -3,9 +3,3 @@ class Person(object):
         self.name = name
         self.age = age
         self.gender = gender
-
-    # def communicate(self, message):
-    #     return message
-
-    # def move(self, distance):
-    #     return distance
